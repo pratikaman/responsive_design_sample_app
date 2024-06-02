@@ -8,7 +8,7 @@ class BookmarkView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      child: BookmarkList(),
+      child: const BookmarkList(),
     );
   }
 }

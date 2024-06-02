@@ -8,7 +8,7 @@ import 'destination_view.dart';
 class HomeViewSmall extends StatefulWidget {
   final int currentIndex;
   final Function(int selectedIndex) onTapped;
-  HomeViewSmall(this.currentIndex, this.onTapped, {super.key});
+  const HomeViewSmall(this.currentIndex, this.onTapped, {super.key});
 
   @override
   _HomeViewSmallState createState() => _HomeViewSmallState();
